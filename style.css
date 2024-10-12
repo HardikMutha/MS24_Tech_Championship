@@ -99,6 +99,9 @@ body.no-scroll {
 
 .competitions-list {
   margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .competitions-list p {
@@ -129,7 +132,7 @@ body.no-scroll {
 }
 
 .All-Competitions h3:first-child {
-  margin-top: 55px;
+  margin-top: 45px;
 }
 
 .All-Competitions {
@@ -169,6 +172,69 @@ th {
   font-size: 1.5rem;
   letter-spacing: 0.6px;
   font-weight: 600;
+  text-transform: uppercase;
+}
+
+.tiebreaks {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  margin-top: 50px;
+}
+
+.tiebreaks h3 {
+  text-align: center;
+  font-size: xx-large;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  margin: 10px 0px;
+  margin-bottom: 20px;
+}
+
+#main-tiebreak-para {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.tiebreaks p {
+  text-align: start;
+}
+
+.tiebreaks ol li:nth-of-type(4) {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.tiebreaks ol {
+  margin-left: 5%;
+}
+
+#headers-tiebreaks {
+  margin: 15px 0px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-transform: capitalize;
+  font-size: large;
+  letter-spacing: 0.3px;
+}
+
+.rules {
+  margin-bottom: 30px;
+}
+
+.rules ol {
+  width: 85%;
+  font-size: large;
+}
+
+.rules ol li {
+  margin-bottom: 30px;
+  letter-spacing: 0.4px;
 }
 
 /*Navbar Styles --*/
