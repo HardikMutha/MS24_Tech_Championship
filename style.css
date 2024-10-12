@@ -339,6 +339,9 @@ th {
     margin-bottom: 13px;
     font-size: 1rem;
   }
+  #numbers {
+    font-size: 0.75rem;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -363,6 +366,9 @@ th {
   .competitions-list ol {
     font-size: 0.8rem;
   }
+  #numbers {
+    font-size: 0.6rem;
+  }
 }
 
 @media screen and (max-width: 390px) {
@@ -378,6 +384,9 @@ th {
   }
   .single-module {
     font-size: 0.6rem;
+  }
+  #numbers {
+    font-size: 0.5rem;
   }
 }
 
