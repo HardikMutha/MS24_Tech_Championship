@@ -327,6 +327,18 @@ th {
   .All-Competitions h3 {
     font-size: 1.2rem;
   }
+  .competitions-list ol {
+    font-size: 1.1rem;
+  }
+  .All-Competitions h3:first-child {
+    margin-top: 25px;
+    margin-bottom: 13px;
+  }
+  .All-Competitions h3 {
+    margin-top: 25px;
+    margin-bottom: 13px;
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -347,7 +359,8 @@ th {
   .rules ol li {
     font-size: small;
   }
-  .information-card p {
+  .information-card p,
+  .competitions-list ol {
     font-size: 0.8rem;
   }
 }
